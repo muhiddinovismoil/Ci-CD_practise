@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT || 1227;
 
 app.use("/", (req, res) => {
     console.log("hello");

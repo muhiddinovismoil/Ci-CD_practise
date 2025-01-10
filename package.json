@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\"",
         "start": "node server.js",
         "start:dev": "node --watch server.js",
-        "prod": "pm2 restart muhiddinov"
+        "prod": "npx pm2 restart ismoil"
     },
     "keywords": [],
     "author": "",
