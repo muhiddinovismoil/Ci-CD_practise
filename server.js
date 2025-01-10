@@ -1,11 +1,8 @@
 import express from "express";
 const app = express();
-const PORT = process.env.PORT || 1227;
-app.use(express.json);
+const PORT = process.env.PORT || 2000;
 app.use("/", (req, res) => {
-    res.send({
-        message: "Hello World!",
-    });
+    res.send("Hello World!");
 });
 app.listen(PORT, () => {
     console.log(`Server is running on PORT: ${PORT}`);
