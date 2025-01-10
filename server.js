@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 2000;
 
 app.use("/", (req, res) => {
-    res.send("Hello World!");
+    res.send("Hello World nima gap!");
 });
 app.listen(PORT, () => {
     console.log(`Server is running on PORT: ${PORT}`);
