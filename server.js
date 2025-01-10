@@ -6,5 +6,5 @@ app.use("/", (req, res) => {
     res.send("Hello World from Ismoil! Welcome This is CI and CD");
 });
 app.listen(PORT, () => {
-    console.log(`Server is running on PORT: ${PORT}`);
+    console.log(`SERVER is running on PORT: ${PORT}`);
 });
